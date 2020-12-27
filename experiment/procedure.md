@@ -1,6 +1,6 @@
 ### Procedure
 
- Part-1: Acoustic-Phonetic Labeling (pre-labeled examples)
+ #### Part-1: Acoustic-Phonetic Labeling (pre-labeled examples)
 
  Step1: Select an utterance/prelabeled of your choice from the list of examples provided.
 
@@ -13,7 +13,7 @@
  Step5: Write a brief note on the observations.
 
 
-Part-2: Acoustic-Phonetic labeling without feedback
+#### Part-2: Acoustic-Phonetic labeling without feedback
 
  Step1: Write down a sentence of your choice in one of the chosen languages and click on 'Done'button
 
