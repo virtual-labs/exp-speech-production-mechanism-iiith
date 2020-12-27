@@ -4,10 +4,10 @@
 
 From time domain waveform:
 
-    Voiced: quasiperiodicity and high amplitude regions
-    Unvoiced: nonperiodic and random like noise
-    Plosive: noise burst like signal indicates the sudden release of constriction at different places in vocal tract system
-    Silence: no speech signal (zero or relatively small amplitude)
+   Voiced: quasiperiodicity and high amplitude regions
+   Unvoiced: nonperiodic and random like noise
+   Plosive: noise burst like signal indicates the sudden release of constriction at different places in vocal tract system
+   Silence: no speech signal (zero or relatively small amplitude)
 
 #### 2 Acoustic phonetic description
 
@@ -38,44 +38,44 @@ Fricative followed by diphthong (central-low to front-high).
 Table 1: Vowel classification
 Vowel Type
 
-	Sound Units
+Sound Units
 
 Short
 
-	a,i,u,e,o
+a,i,u,e,o
 Long
 
-	A,I,U,E,O
+A,I,U,E,O
 Diphthongs
 
-	ai,au
+ai,au
 
 Table 2: Position and height of the tongue hump for producing different vowels
 
 
-	Front 	Central 	Back
+Front 	Central 	Back
 
 High
 
-	/i/
+/i/
 
 	
 
-	/u/
+/u/
 
 Mid
 
-	/e/
+/e/
 
 	
 
-	/o/
+/o/
 
 Low
 
 	
 
-	/a/
+/a/
 
 	
 
@@ -85,105 +85,105 @@ Low
 Table 3: Consonant classification
 Place of Articulation
 
-	Manner of Articulation
+Manner of Articulation
 
-	Nasals
+Nasals
 
-	Semi-vowels
+Semi-vowels
 or Approximants
 
 
-	Fricatives
+Fricatives
 
 Unvoiced
 
-	Voiced
+Voiced
 
 Unaspirated
 
-	Aspirated
+Aspirated
 
-	Unaspirated
+Unaspirated
 
-	Aspirated
+Aspirated
 
 Velar
 
-	k
+k
 
-	kh
+kh
 
-	g
+g
 
-	gh
+gh
 
-	kn
+kn
 
 	
 
-	h
+h
 
 Palatal
 
-	ch
+ch
 
-	chh
+chh
 
-	j
+j
 
-	jh
+jh
 
-	chn
+chn
 
-	y
+y
 
-	sh
+sh
 
 Alveolar
 
-	T
+T
 
-	Th
+Th
 
-	D
+D
 
-	Dh
+Dh
 
-	Tn
+Tn
 
-	r
+r
 
-	shh
+shh
 
 Dental
 
-	t
+t
 
-	th
+th
 
-	d
+d
 
-	dh
+dh
 
-	n
+n
 
-	l
+l
 
-	s
+s
 
 Bilabial
 
-	p
+p
 
-	ph
+ph
 
-	b
+b
 
-	bh
+bh
 
-	m
+m
 
-	v
+v
 
 	
 
@@ -194,9 +194,9 @@ Bilabial
 
 The main types of excitation are as follows:
 
-    Voicing - vibration of the vocal folds
-    Burst or plosion - realease of oral closure
-    Frication - random noise-like turbulence
+   Voicing - vibration of the vocal folds
+   Burst or plosion - realease of oral closure
+   Frication - random noise-like turbulence
 
 
 
@@ -233,16 +233,16 @@ Table 4: Excitations and the corresponding sounds
 Excitation type 	Sound units
 Vocal folds vibration
 
-	Vowels
+Vowels
 Release of velar constriction 	k,kh
 Release of palatal constriction 	ch,chh
 Release of alveolar constriction 	T,Th
 Release of dental constriction
 
-	t,th
+t,th
 Release of bilabial constriction
 
-	p,ph
+p,ph
 Release of velar constriction and vocal folds vibration 	g,gh
 Release of palatal constriction and vocal folds vibration 	j,jh
 Release of alveolar constriction and vocal folds vibration 	D,Dh
@@ -304,7 +304,7 @@ Complete closure at velum 	k,kh,g,gh
 Complete closure at palatal 	ch,chh,j,jh
 Complete closure at alveolar
 
-	T,Th,D,Dh
+T,Th,D,Dh
 Complete closure at dental 	t,th,d,dh
 Complete closure at lips 	p,ph,b,bh
 Complete closure at velum and opening of nasal cavity 	kn
