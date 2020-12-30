@@ -1,4 +1,4 @@
-### Tutorial
+### Theory
 
 #### 1 Identifying the Voiced/Unvoiced/Plosive/Silence regions
 
@@ -233,16 +233,16 @@ Table 4: Excitations and the corresponding sounds
 Excitation type 	Sound units
 Vocal folds vibration
 
-	Vowels
+Vowels
 Release of velar constriction 	k,kh
 Release of palatal constriction 	ch,chh
 Release of alveolar constriction 	T,Th
 Release of dental constriction
 
-	t,th
+t,th
 Release of bilabial constriction
 
-	p,ph
+p,ph
 Release of velar constriction and vocal folds vibration 	g,gh
 Release of palatal constriction and vocal folds vibration 	j,jh
 Release of alveolar constriction and vocal folds vibration 	D,Dh
