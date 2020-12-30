@@ -1,5 +1,3 @@
-### References  
-
 - L.R. Rabiner, Biing-Hwang Juang and B. Yegnanarayana, Fundamentals of Speech Recognition, Chapter 2, New Delhi, India (Indian Subcontinent Adaptation) : Pearson Education Inc., 2009.
 
 - Thomas F. Quatieri, Discrete-Time Speech Signal Processing, Chapter 3, New Delhi, India : Pearson Education Inc., 2002.

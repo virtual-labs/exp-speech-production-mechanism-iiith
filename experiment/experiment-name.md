@@ -1,3 +1,1 @@
-## Experiment name
-
-Speech production mechanism
+## Speech Production Mechanism

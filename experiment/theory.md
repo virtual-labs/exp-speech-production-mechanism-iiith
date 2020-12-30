@@ -1,6 +1,4 @@
-### Theory
-
-#### 1 Identifying the Voiced/Unvoiced/Plosive/Silence regions
+### 1 Identifying the Voiced/Unvoiced/Plosive/Silence regions
 
 From time domain waveform:
 
@@ -9,7 +7,7 @@ From time domain waveform:
    Plosive: noise burst like signal indicates the sudden release of constriction at different places in vocal tract system
    Silence: no speech signal (zero or relatively small amplitude)
 
-#### 2 Acoustic phonetic description
+### 2 Acoustic phonetic description
 
 Acoustic phonetics (AP) deals with the study of speech sounds by relating the acoustic signal characteristics to the speech production mechanism.
 
@@ -190,7 +188,7 @@ v
 
 
 
-#### 3 Description of time varying excitation
+### 3 Description of time varying excitation
 
 The main types of excitation are as follows:
 
