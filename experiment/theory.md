@@ -192,9 +192,11 @@ v
 
 The main types of excitation are as follows:
 
-   Voicing - vibration of the vocal folds
-   Burst or plosion - realease of oral closure
-   Frication - random noise-like turbulence
+   - Voicing - vibration of the vocal folds
+   
+   - Burst or plosion - realease of oral closure
+   
+   - Frication - random noise-like turbulence
 
 
 
@@ -205,21 +207,32 @@ Example: kitAb mEj par hai
 The time varying excitation is described for the sound units present in the utterance using the Table 4.
 
 /k/ : Release of velar constriction
+
 /i/ : Vocal folds vibration
+
 /t/ : Release of dental constriction
+
 /A/ : Vocal folds vibration
+
 /b/ : Vocal folds vibration + release of bilabial constriction
+
 /m/ : Vocal folds vibration + lowered velum + closure of lips
 
 
 
 
 /E/ : Vocal folds vibration
+
 /j/ : Vocal folds vibration + release of palatal constriction
+
 /p/ : Release of bilabial constriction
+
 /a/ : Vocal folds vibration
+
 /r/ : Vocal folds vibration + turbulence at alveolar ridge
+
 /h/ : Tubulence at velar constriction
+
 /ai/: Vocal folds vibration
 
 
@@ -228,7 +241,7 @@ The time varying excitation is described for the sound units present in the utte
 
 
 Table 4: Excitations and the corresponding sounds
-Excitation type 	Sound units
+Excitation type 	     Sound units
 Vocal folds vibration
 
 Vowels
@@ -259,6 +272,7 @@ Narrow constriction at velum (turbulent) 	h
 Narrow constriction at palatal (turbulent) 	sh
 Narrow constriction at alveolar (turbulent) 	shh
 Narrow constriction at dental (turbulent) 	s
+
 #### 5 Time varying system description
 
 Description of time-varying system characteristics is nothing but specifying the positions of different articulators and shape of the vocal tract while producing the particular sound unit. For production of vowels the time-varying system characteristics are described by the extent of opening of oral cavity, position of tongue hump in the oral cavity and height of the tongue hump. The position and height of the tongue hump for different vowels can be described using the Table 2. The time varying system characteristics for consonants can be described using Table 3.
@@ -268,16 +282,27 @@ Example: kitAb mEj par hai
 The time varying system is described for the sound units present in the utterance using Table 5.
 
 /k/ : Complete closure at velum position.
+
 /i/ : Tongue hump is high and is in front position of the vocal tract (VT) system, VT system is narrowly open.
+
 /t/ : Complete closure at dental position.
+
 /A/ : Tongue hump is low and is in back position of the vocal tract (VT) system, VT system is widely open.
+
 /b/ : Closure at lips.
+
 /m/ : Opening of velum and closure at lips.
+
 /E/ : Tongue hump is medium and is in front position of the VT system, VT system is moderately open.
-/j/ : Narrow opening at alveolar ridge
+
+/j/ : Narrow opening at alveolar ridge.
+
 /p/ : Closure at lips.
-/r/ : Narrow opening at alveolar ridge
-/h/ : Narrow opening at velum
+
+/r/ : Narrow opening at alveolar ridge.
+
+/h/ : Narrow opening at velum.
+
 /ai/ : Tongue hump at alveolar ridge, narrow opening at alveolar ridge, VT system is narrowly open.
 
 
