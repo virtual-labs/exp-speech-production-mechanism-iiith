@@ -182,9 +182,11 @@ The time varying system is described for the sound units present in the utteranc
 
 
 **Table 5: System characteristics and the corresponding sounds**
+
+
 |Vocal tract system characteristics 	| Sound units| 
 |---------------------------------------|-------------|
-|Tongue hump is low and it is in central position of the vocal tract (VT) system, VT system is widely open| 	a|
+|Tongue hump is low and it is in central position of the vocal tract (VT) system, VT system is widely open | 	a|
 |Tongue hump is high and it is in front position of the VT system, VT system is narrowly open |	i|
 |Tongue hump is medium and it is in front position of the VT system, VT system is moderately open |	e|
 |Tongue hump is high and it is in back position of the VT system, VT system is narrowly open and cylindrical in shape 	|u|
