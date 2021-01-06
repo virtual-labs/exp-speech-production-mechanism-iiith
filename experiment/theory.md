@@ -34,19 +34,26 @@ hai ( /h/, /ai/ )
 Fricative followed by diphthong (central-low to front-high).
 
 Table 1: Vowel classification
-Vowel Type
 
-Sound Units
+| Vowel Type  | Sound Units |
+| ------------- | ------------- |
+| Short	|    a,i,u,e,o|
+| Long |A,I,U,E,O  |
+| Diphthongs |ai,au |
 
-Short
 
-a,i,u,e,o
-Long
 
-A,I,U,E,O
-Diphthongs
 
-ai,au
+
+
+
+
+
+
+
+
+
+
 
 Table 2: Position and height of the tongue hump for producing different vowels
 
