@@ -33,7 +33,7 @@ hai ( /h/, /ai/ )
 
 Fricative followed by diphthong (central-low to front-high).
 
-Table 1: Vowel classification
+**Table 1: Vowel classification**
 
 | Vowel Type  | Sound Units |
 | ------------- | ------------- |
@@ -41,13 +41,13 @@ Table 1: Vowel classification
 | Long |A,I,U,E,O  |
 | Diphthongs |ai,au |
 
-Table 2: Position and height of the tongue hump for producing different vowels
+**Table 2: Position and height of the tongue hump for producing different vowels**
 
 <center><img src="images/table2.png"> <br></p> </center>
 
 
 
-Table 3: Consonant classification
+**Table 3: Consonant classification**
 
 <center><img src="images/table3.png"> <br></p> </center>
 
@@ -106,7 +106,7 @@ The time varying excitation is described for the sound units present in the utte
 
 
 
-Table 4: Excitations and the corresponding sounds
+**Table 4: Excitations and the corresponding sounds**
 |  Excitation type  | Sound units |
 | ------------| ----------- |
 |  Vocal folds vibration    |   Vowels	          |
@@ -181,7 +181,7 @@ The time varying system is described for the sound units present in the utteranc
 
 
 
-Table 5: System characteristics and the corresponding sounds
+**Table 5: System characteristics and the corresponding sounds**
 |Vocal tract system characteristics 	| Sound units| 
 |---------------------------------------|-------------|
 |Tongue hump is low and it is in central position of the vocal tract (VT) system, VT system is widely open| 	a|
