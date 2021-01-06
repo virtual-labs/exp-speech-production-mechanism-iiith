@@ -49,7 +49,7 @@ Table 2: Position and height of the tongue hump for producing different vowels
 
 Table 3: Consonant classification
 
-	<center><img src="images/table3.png"> <br></p> </center>
+<center><img src="images/table3.png"> <br></p> </center>
 
 
 
