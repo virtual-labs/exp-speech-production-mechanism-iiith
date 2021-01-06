@@ -107,6 +107,8 @@ The time varying excitation is described for the sound units present in the utte
 
 
 **Table 4: Excitations and the corresponding sounds**
+
+
 |  Excitation type  | Sound units |
 | ------------| ----------- |
 |  Vocal folds vibration    |   Vowels	          |
