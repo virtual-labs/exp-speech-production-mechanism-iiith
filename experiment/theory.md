@@ -41,156 +41,15 @@ Table 1: Vowel classification
 | Long |A,I,U,E,O  |
 | Diphthongs |ai,au |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Table 2: Position and height of the tongue hump for producing different vowels
 
-
-Front 	Central 	Back
-
-High
-
-/i/
-
-	
-
-/u/
-
-Mid
-
-/e/
-
-	
-
-/o/
-
-Low
-
-	
-
-/a/
-
-	
-
+<center><img src="images/table2.png"> <br></p> </center>
 
 
 
 Table 3: Consonant classification
-Place of Articulation
 
-Manner of Articulation
-
-Nasals
-
-Semi-vowels
-or Approximants
-
-
-Fricatives
-
-Unvoiced
-
-Voiced
-
-Unaspirated
-
-Aspirated
-
-Unaspirated
-
-Aspirated
-
-Velar
-
-k
-
-kh
-
-g
-
-gh
-
-kn
-
-	
-
-h
-
-Palatal
-
-ch
-
-chh
-
-j
-
-jh
-
-chn
-
-y
-
-sh
-
-Alveolar
-
-T
-
-Th
-
-D
-
-Dh
-
-Tn
-
-r
-
-shh
-
-Dental
-
-t
-
-th
-
-d
-
-dh
-
-n
-
-l
-
-s
-
-Bilabial
-
-p
-
-ph
-
-b
-
-bh
-
-m
-
-v
-
-	
+	<center><img src="images/table3.png"> <br></p> </center>
 
 
 
@@ -248,37 +107,36 @@ The time varying excitation is described for the sound units present in the utte
 
 
 Table 4: Excitations and the corresponding sounds
-Excitation type 	     Sound units
-Vocal folds vibration
+|  Excitation type  | Sound units |
+| ------------| ----------- |
+|  Vocal folds vibration    |   Vowels	          |
+|Release of velar constriction   |k,kh              |
+| Release of palatal constriction 	     |  ch,chh            |
+| Release of alveolar constriction 	     | 	T,Th              |
+| Release of dental constriction 	     |  	t,th            |
+| Release of bilabial constriction  	     |  	p,ph           |
+| Release of velar constriction and vocal folds vibration 	     |    	g,gh           |
+| Release of palatal constriction and vocal folds vibration 	     |  	j,jh             |
+| Release of alveolar constriction and vocal folds vibration 	     |  D,Dh            |
+|  Release of dental constriction and vocal folds vibration	     |  d,dh            |
+|  Release of bilabial constriction and vocal folds vibration	     |  b,bh            |
+|  Vocal folds vibration, velum is lowered and constriction at velum	     |   	kn            |
+| Vocal folds vibration, velum is lowered and constriction at palatal 	 	     |  chn            |
+| Vocal folds vibration, velum is lowered and constriction at alveolar 	 	     |  Tn            |
+| Vocal folds vibration, velum is lowered and constriction at dental 	     | n             |
+|Vocal folds vibration, velum is lowered and constriction at lips  	     |  m            |
+| Vocal folds vibration and narrow constriction at palatal 	     |   y           |
+| Vocal folds vibration and narrow constriction at alveolar ridge 	     |   	r            |
+|Vocal folds vibration and narrow constriction at dental  	     |  	l             |
+|  Vocal folds vibration and narrow constriction at lips	     |   	v            |
+| Narrow constriction at velum (turbulent)  	     |   h           |
+| Narrow constriction at palatal (turbulent)  	     |    	sh           |
+| Narrow constriction at alveolar (turbulent)  	     |   	shh            |
+|  Narrow constriction at dental (turbulent) 	     |    	s           |
 
-Vowels
-Release of velar constriction 	k,kh
-Release of palatal constriction 	ch,chh
-Release of alveolar constriction 	T,Th
-Release of dental constriction
 
-t,th
-Release of bilabial constriction
 
-p,ph
-Release of velar constriction and vocal folds vibration 	g,gh
-Release of palatal constriction and vocal folds vibration 	j,jh
-Release of alveolar constriction and vocal folds vibration 	D,Dh
-Release of dental constriction and vocal folds vibration 	d,dh
-Release of bilabial constriction and vocal folds vibration 	b,bh
-Vocal folds vibration, velum is lowered and constriction at velum 	kn
-Vocal folds vibration, velum is lowered and constriction at palatal 	chn
-Vocal folds vibration, velum is lowered and constriction at alveolar 	Tn
-Vocal folds vibration, velum is lowered and constriction at dental 	n
-Vocal folds vibration, velum is lowered and constriction at lips 	m
-Vocal folds vibration and narrow constriction at palatal 	y
-Vocal folds vibration and narrow constriction at alveolar ridge 	r
-Vocal folds vibration and narrow constriction at dental 	l
-Vocal folds vibration and narrow constriction at lips 	v
-Narrow constriction at velum (turbulent) 	h
-Narrow constriction at palatal (turbulent) 	sh
-Narrow constriction at alveolar (turbulent) 	shh
-Narrow constriction at dental (turbulent) 	s
+
 
 #### 5 Time varying system description
 
@@ -324,33 +182,31 @@ The time varying system is described for the sound units present in the utteranc
 
 
 Table 5: System characteristics and the corresponding sounds
-Vocal tract system characteristics 	Sound units
-Tongue hump is low and it is in central position of the vocal tract (VT) system, VT system is widely open 	a
-Tongue hump is high and it is in front position of the VT system, VT system is narrowly open 	i
-Tongue hump is medium and it is in front position of the VT system, VT system is moderately open 	e
-Tongue hump is high and it is in back position of the VT system, VT system is narrowly open and cylindrical in shape 	u
-Tongue hump is medium and it is in back position of the VT system, VT system is moderately open and cylindrical in shape 	o
-Complete closure at velum 	k,kh,g,gh
-Complete closure at palatal 	ch,chh,j,jh
-Complete closure at alveolar
-
-T,Th,D,Dh
-Complete closure at dental 	t,th,d,dh
-Complete closure at lips 	p,ph,b,bh
-Complete closure at velum and opening of nasal cavity 	kn
-Complete closure at palatal and opening of nasal cavity 	chn
-Complete closure at alveolar opening of nasal cavity 	Tn
-Complete closure at dental opening of nasal cavity 	n
-Complete closure at lips opening of nasal cavity 	m
-Narrow constriction at velum 	h
-Narrow constriction at palatal 	sh
-Narrow constriction at alveolar 	shh
-Narrow constriction at dental 	s
-Partial closure of VT with tongue hump at palatal 	y
-
-Partial closure of VT with tongue tip at alveolar ridge 	r
-Partial closure of VT with tongue tip at dental 	l
-Partial closure of VT with lower lip and upper teeth 	v
+|Vocal tract system characteristics 	| Sound units| 
+|---------------------------------------|-------------|
+|Tongue hump is low and it is in central position of the vocal tract (VT) system, VT system is widely open| 	a|
+|Tongue hump is high and it is in front position of the VT system, VT system is narrowly open |	i|
+|Tongue hump is medium and it is in front position of the VT system, VT system is moderately open |	e|
+|Tongue hump is high and it is in back position of the VT system, VT system is narrowly open and cylindrical in shape 	|u|
+|Tongue hump is medium and it is in back position of the VT system, VT system is moderately open and cylindrical in shape 	|o|
+|Complete closure at velum |	k,kh,g,gh|
+|Complete closure at palatal |	ch,chh,j,jh|
+|Complete closure at alveolar|T,Th,D,Dh|
+|Complete closure at dental |	t,th,d,dh|
+|Complete closure at lips |	p,ph,b,bh|
+|Complete closure at velum and opening of nasal cavity 	|kn|
+|Complete closure at palatal and opening of nasal cavity 	|chn|
+|Complete closure at alveolar opening of nasal cavity 	|Tn|
+|Complete closure at dental opening of nasal cavity 	|n|
+|Complete closure at lips opening of nasal cavity 	|m|
+|Narrow constriction at velum 	|h|
+|Narrow constriction at palatal 	|sh|
+|Narrow constriction at alveolar 	|shh|
+|Narrow constriction at dental 	|s|
+|Partial closure of VT with tongue hump at palatal 	|y|
+|Partial closure of VT with tongue tip at alveolar ridge 	|r|
+|Partial closure of VT with tongue tip at dental 	|l|
+|Partial closure of VT with lower lip and upper teeth 	|v|
 
 
 
