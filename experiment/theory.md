@@ -15,21 +15,21 @@ Speech sounds may be categorized broadly as vowels and consonants. Vowels are so
 
 In the case of vowels, the AP description may be given in terms of duration (short and long) as in Table 1. Dipthongs are sounds which make a continuous transition from one vowel position to other, and are equivalent to long vowels in terms of duration. AP description of wowels may also be given in terms of the tongue hump position (front, central, back) within the oral cavity, and in terms of height of the tongue hump (high, mid, low), as given in Table 2. In the case of diphthongs, the tongue position changes from that of one vowel to another. The AP description of consonants is given in terms of place of articulation (POA) and manner of articulation (MOA), as shown in Table 3.
 
-Example: kitAb mEj par hai
+**Example:** kitAb mEj par hai
 
-kitAb ( /k/, /i/, /t/, /A/, /b/)
+**kitAb ( /k/, /i/, /t/, /A/, /b/)**
 
 Unvoiced unaspirated velar stop, followed by front-high short vowel, followed by unvoiced unaspirated dental stop, followed by central-low long vowel, followed by voiced unaspirated bilabial stop.
 
-mEj ( /m/, /E/, /j/)
+**mEj ( /m/, /E/, /j/)**
 
 Bilabial nasal, followed by front -mid long vowel, followed by voiced unaspirated palatal stop.
 
-par ( /p/, /a/, /r/ )
+**par ( /p/, /a/, /r/ )**
 
 Unvoiced unaspirated bilabial stop, followed by central-low short vowel, followed by alveolar approximant.
 
-hai ( /h/, /ai/ )
+**hai ( /h/, /ai/ )**
 
 Fricative followed by diphthong (central-low to front-high).
 
