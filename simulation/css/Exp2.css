@@ -1,0 +1,12 @@
+.vl {
+    display: flex;
+}
+
+.btn-info{
+    background-color: #176696;
+    color: white;
+}
+
+.td {
+    color: aqua;
+} 
