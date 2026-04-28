@@ -1,0 +1,167 @@
+<html><head><!--Google Tag Manager--><script class="gtm">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W59SWTR');</script><!--End Google Tag Manager-->
+    <title>Exp02-part2</title>
+    <script crossorigin="anonymous" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/plugin/wavesurfer.timeline.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+      <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet"/>
+      <script crossorigin="anonymous" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script crossorigin="anonymous" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/wavesurfer.js@3.3.1/dist/plugin/wavesurfer.microphone.min.js"></script>
+    <script language="Javascript" src="js/exp2-02.js" type="text/javascript"></script>
+
+</head>
+
+<body class="d-flex justify-content-center"><!--Google Tag Manager (noscript)--><noscript class="gtm"><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0"></iframe></noscript><!--End Google Tag Manager (noscript)-->
+    <div class="container-fluid ml-5 mt-5">
+        <div class="row">
+            <div class="col-md">
+                <h4>Part-2: Acoustic-Phonetic labeling without feedback</h4>
+            </div>
+            <div class="col-sm"><a href="exp2-01.html"><b>&lt;&lt;Part-1</b></a></div>
+        </div>
+    
+    <!--<table width=900><tr>
+    <td><h2>Part-2: Acoustic-Phonetic labeling without feedback</h2></td>
+    <td width=200 align=right><a href='exp2-01.html'><b>&lt;&lt;Part-1</b></a></td>
+    </tr></table>-->
+
+    <div id="pages">
+        <div id="initial-page">
+            <div class="row mt-4 mt-3">
+                <b>Choose your language and construct a sentence.</b>
+            </div>
+            <br/>
+            <br/>
+            <form name="box" style="margin: 0">
+                <div class="row ml-3">
+                    <span class="mr-3" style="font-size:12pt"><b>Language:</b></span>
+                    <select name="Languages" onchange="chngLang()" tabindex="2">
+                      <option value="hindi">Hindi</option>
+                      <option value="telugu">Telugu</option>
+                      <option value="malayali">Malayalam</option>
+                      <option value="bengali">Bengali</option>
+                      <option value="tamil">Tamil</option>
+                      <option value="assamese">Assamese</option>
+                      <option value="kannada">Kannada</option>
+                      <option value="marathi">Marathi</option>
+                      <option value="sanskrit">Sanskrit</option>
+                      <option value="oriya">Oriya</option>
+                  </select>
+                    <input class="btn btn-info btn-sm ml-3" name="B4" onclick="onClear();" tabindex="3" type="button" value="Clear"/>
+                    <input class="btn btn-primary btn-sm ml-3" name="done" onclick="onSubmit();" type="button" value="Done"/>
+                    <input name="uttflag" type="hidden" value="0"/>
+                </div>
+                <div class="row ml-4 mt-4">
+                    <div class="col-sm ml-5"><b class="ml-5">Input in IT3 format</b></div>
+                    <div class="col-sm ml-5"><b>Output in unicode UTF-8</b></div>
+                    <div class="col-sm"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md">
+                        <textarea class="form" cols="40" id="ip" name="ip" onkeyup="updatePosition(this)" onmouseup="updatePosition(this)" rows="2" style="border:1px solid #00006C; " tabindex="1">namaskaar</textarea>
+                    </div>
+                    <div class="col-md">
+                        <textarea class="form" cols="40" id="op" name="op" readonly="true" rows="2" style="border:1px solid #00006C; font-family:RaghuOriya"> </textarea>
+                    </div>
+                    <div class="col-md">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md">
+                        <textarea class="form" cols="46" id="refipid" name="refip" onkeyup="updatepos(this,document.box.refop)" onmouseup="updatePosition(this,document.box.refop)" readonly="true" rows="15" style="background-color:#dddddd; border:1px solid #888888;font-size:11pt;" wrap="on">                        a aa i ii u uu rx rx~ e ei ai o oo au an: ah:
+
+                        ka kha ga gha ng~a
+                        cha chha ja jha nj~a
+                        t:a t:ha d:a d:ha nd~a
+                        ta tha da dha na
+                        pa pha ba bha ma
+                        ya ra la va
+                        sa sha shha ha l:a
+
+                        ka kaa ki kii ku kuu krx krx~ ke kei kai ko
+                        koo kau kan: kah:</textarea>
+                    </div>
+                    <div class="col-md">
+                        <textarea class="form" cols="40" id="refopid" name="refop" readonly="true" rows="13" style="background-color:#dddddd; border:1px solid #00006C; font-family:RaghuOriya"> </textarea>
+                    </div>
+                    <div class="col-md">
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <div class="mt-5" id="second-page" style="visibility: hidden;">
+            <form id="myform" name="myform">
+            <table class="table table-striped" id="second-table">
+                <tbody>
+                    <tr>
+                        <td>Utterance</td>
+                        <td> <input id="uttind" name="uttind" readonly="" size="80" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>Transliteration</td>
+                        <td> <input id="utteng" name="utteng" readonly="" size="80" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>Phonemes</td>
+                        <td> <input id="phn" name="phn" readonly="" size="80" type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>Syllables</td>
+                        <td> <input id="rsyl" name="rsyl" readonly="" size="80" type="text" value=""/></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <input name="sylflag" type="hidden" value="0"/>
+            </form>
+        </div>
+        
+        <div id="third-page" style="visibility: hidden">
+            <div class="row ml-3 md-5">
+            <h6>Record your speech, observe the signal characteristics, and provide acoustic-phonetic description of the phonemes.</h6>
+            </div>
+            <div class="row ml-3">
+                <div class="col-md">
+                    <div id="demo">
+                    <div id="waveform"></div>
+                    <div align="center" class="controls">
+                        <button class="btn btn-primary ml-5 mt-4" data-action="start" id="micBtn">
+                            Microphone:
+                            <i class="glyphicon glyphicon-play"></i>
+                            Start
+                            /
+                            <i class="glyphicon glyphicon-stop"></i>
+                            Stop
+                        </button>
+
+                        <button class="btn btn-primary ml-5 mt-4" id="play">play</button>
+                    </div>
+                    </div>
+                </div>
+                <div align="center" class="col-md">
+                    <b>Acoustic-Phonetic Description</b>
+                    <table class="table table-striped" id="sbwrds">
+                        <tbody><tr>
+                            <td><b>SYM</b></td>
+                            <td><b>EXTN TYPE</b></td>
+                            <td><b>MANNER</b></td>
+                            <td><b>PLACE</b></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    </div>
+
+<script language="Javascript" src="js/exp2-02-micro.js" type="text/javascript"></script>
+<script type="text/javascript"> updatePosition(this) </script>
+<script type="text/javascript"> updatepos(document.box.refip,document.box.refop) </script>
+</body></html>
